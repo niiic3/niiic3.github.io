@@ -26,6 +26,17 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      var validIds = ['id1', 'id2', 'id3'];
+      var id = prompt("請輸入會員帳號");
+      if (validIds.includes(id))
+        $('#about').show();
+      else
+        $('#about').hide();
+    });
+  </script>
 
   <!-- =======================================================
   * Template Name: BizPage
