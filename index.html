@@ -27,16 +27,6 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script>
-    $(document).ready(function() {
-      var validIds = ['id1', 'id2', 'id3'];
-      var id = prompt("請輸入會員帳號");
-      if (validIds.includes(id))
-        $('#about').show();
-      else
-        $('#about').hide();
-    });
-  </script>
 
   <!-- =======================================================
   * Template Name: BizPage
@@ -64,9 +54,8 @@
               <li><a class="nav-link scrollto active" href="#hero">HOME</a></li>
               <li><a class="nav-link scrollto" href="#about">ABOUT FUTURES</a></li>
               <li><a class="nav-link scrollto" href="#services">ABOUT OPTIONS</a></li>
-              <li><a class="nav-link scrollto " href="#portfolio">comparision</a></li>
-              <li><a class="nav-link scrollto" href="#team">how to trade</a></li>
-              <li><a class="nav-link  " href="blog.html">how to trade</a></li>
+              <li><a class="nav-link scrollto " href="#team">comparision</a></li>
+              <li><a class="nav-link scrollto" href="#portfolio">LEARN MORE</a></li>
               <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
                 <ul>
                   <li><a href="#">Drop Down 1</a></li>
@@ -379,16 +368,16 @@
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
-          <h3 class="section-title">Our Portfolio</h3>
+          <h3 class="section-title">LEARN MORE</h3>
         </header>
 
-        <div class="row" data-aos="fade-up" data-aos-delay="100"">
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
       <div class=" col-lg-12">
           <ul id="portfolio-flters">
             <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-card">Card</li>
-            <li data-filter=".filter-web">Web</li>
+            <li data-filter=".filter-app">Article</li>
+            <li data-filter=".filter-card">Video</li>
+            <li data-filter=".filter-web">Blog</li>
           </ul>
         </div>
       </div>
@@ -400,12 +389,12 @@
             <figure>
               <img src="assets/img/portfolio/app1.jpg" class="img-fluid" alt="">
               <a href="assets/img/portfolio/app1.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview"><i class="bi bi-plus"></i></a>
-              <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+              <a href="https://rich01.com/what-is-options/" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
             </figure>
 
             <div class="portfolio-info">
-              <h4><a href="portfolio-details.html">App 1</a></h4>
-              <p>App</p>
+              <h4><a href="https://rich01.com/what-is-options/">選擇權入門教學</a></h4>
+              <p>Article</p>
             </div>
           </div>
         </div>
@@ -413,14 +402,14 @@
         <div class="col-lg-4 col-md-6 portfolio-item filter-web">
           <div class="portfolio-wrap">
             <figure>
-              <img src="assets/img/portfolio/web3.jpg" class="img-fluid" alt="">
-              <a href="assets/img/portfolio/web3.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Web 3"><i class="bi bi-plus"></i></a>
-              <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+              <img width="100%" height="100%" src="assets/img/portfolio/web3.jpg"  class="img-fluid" alt="">
+              <a href="assets/img/portfolio/web3.jpg"  class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Web 3"><i class="bi bi-plus"></i></a>
+              <a href="https://www.facebook.com/iamacer2266/" target="_blank"class="link-details" title="More Details"><i class="bi bi-link"></i></a>
             </figure>
 
             <div class="portfolio-info">
-              <h4><a href="portfolio-details.html">Web 3</a></h4>
-              <p>Web</p>
+              <h4><a href="https://www.facebook.com/iamacer2266/">交易醫生</a></h4>
+              <p>Blog</p>
             </div>
           </div>
         </div>
@@ -430,12 +419,12 @@
             <figure>
               <img src="assets/img/portfolio/app2.jpg" class="img-fluid" alt="">
               <a href="assets/img/portfolio/app2.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="App 2"><i class="bi bi-plus"></i></a>
-              <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+              <a href="https://rich01.com/what-is-futures/" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
             </figure>
 
             <div class="portfolio-info">
-              <h4><a href="portfolio-details.html">App 2</a></h4>
-              <p>App</p>
+              <h4><a href="https://rich01.com/what-is-futures/">期貨入門教學</a></h4>
+              <p>Article</p>
             </div>
           </div>
         </div>
@@ -443,14 +432,14 @@
         <div class="col-lg-4 col-md-6 portfolio-item filter-card">
           <div class="portfolio-wrap">
             <figure>
-              <img src="assets/img/portfolio/card2.jpg" class="img-fluid" alt="">
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/e0pzfu27mhI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               <a href="assets/img/portfolio/card2.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Card 2"><i class="bi bi-plus"></i></a>
-              <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+              <a href="https://youtu.be/e0pzfu27mhI" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
             </figure>
 
             <div class="portfolio-info">
-              <h4><a href="portfolio-details.html">Card 2</a></h4>
-              <p>Card</p>
+              <h4><a href="https://youtu.be/e0pzfu27mhI">新手入門：期貨基礎概念</a></h4>
+              <p>Video</p>
             </div>
           </div>
         </div>
@@ -460,12 +449,12 @@
             <figure>
               <img src="assets/img/portfolio/web2.jpg" class="img-fluid" alt="">
               <a href="assets/img/portfolio/web2.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Web 2"><i class="bi bi-plus"></i></a>
-              <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+              <a href="https://www.facebook.com/profile.php?id=100068181192129" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
             </figure>
 
             <div class="portfolio-info">
-              <h4><a href="portfolio-details.html">Web 2</a></h4>
-              <p>Web</p>
+              <h4><a href="https://www.facebook.com/profile.php?id=100068181192129">宏爺講股</a></h4>
+              <p>Blog</p>
             </div>
           </div>
         </div>
@@ -475,12 +464,12 @@
             <figure>
               <img src="assets/img/portfolio/app3.jpg" class="img-fluid" alt="">
               <a href="assets/img/portfolio/app3.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="App 3"><i class="bi bi-plus"></i></a>
-              <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+              <a href="https://www.yuantafutures.com.tw/optioninvest_04" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
             </figure>
 
             <div class="portfolio-info">
-              <h4><a href="portfolio-details.html">App 3</a></h4>
-              <p>App</p>
+              <h4><a href="https://www.yuantafutures.com.tw/optioninvest_04">期貨與選擇權綜合比較</a></h4>
+              <p>Article</p>
             </div>
           </div>
         </div>
@@ -488,14 +477,14 @@
         <div class="col-lg-4 col-md-6 portfolio-item filter-card">
           <div class="portfolio-wrap">
             <figure>
-              <img src="assets/img/portfolio/card1.jpg" class="img-fluid" alt="">
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Xplb5_Ie91A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               <a href="assets/img/portfolio/card1.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Card 1"><i class="bi bi-plus"></i></a>
-              <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+              <a href="https://youtu.be/Xplb5_Ie91A" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
             </figure>
 
             <div class="portfolio-info">
-              <h4><a href="portfolio-details.html">Card 1</a></h4>
-              <p>Card</p>
+              <h4><a href="https://youtu.be/Xplb5_Ie91A">入門選擇權教學</a></h4>
+              <p>Video</p>
             </div>
           </div>
         </div>
@@ -503,14 +492,14 @@
         <div class="col-lg-4 col-md-6 portfolio-item filter-card">
           <div class="portfolio-wrap">
             <figure>
-              <img src="assets/img/portfolio/card3.jpg" class="img-fluid" alt="">
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/lJiQ5IRrMrw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               <a href="assets/img/portfolio/card3.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Card 3"><i class="bi bi-plus"></i></a>
-              <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+              <a href="https://youtu.be/lJiQ5IRrMrw" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
             </figure>
 
             <div class="portfolio-info">
-              <h4><a href="portfolio-details.html">Card 3</a></h4>
-              <p>Card</p>
+              <h4><a href="https://youtu.be/lJiQ5IRrMrw">個人財務風險管理：進行投資前的第一堂課！</a></h4>
+              <p>Video</p>
             </div>
           </div>
         </div>
@@ -520,12 +509,12 @@
             <figure>
               <img src="assets/img/portfolio/web1.jpg" class="img-fluid" alt="">
               <a href="assets/img/portfolio/web1.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Web 1"><i class="bi bi-plus"></i></a>
-              <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+              <a href="https://rich01.com/" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
             </figure>
 
             <div class="portfolio-info">
-              <h4><a href="portfolio-details.html">Web 1</a></h4>
-              <p>Web</p>
+              <h4><a href="https://rich01.com/">Mr.Market市場先生</a></h4>
+              <p>Blog</p>
             </div>
           </div>
         </div>
